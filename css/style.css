@@ -307,55 +307,96 @@ body {
      display: flex;
      /* justify-content: space-around; */
  }
- .player__item {
-     /* position: absolute;
-     width: 440px;
-     height: 990px;
-     left: 553px;
-     top: 238px; */
-   
-     
- }
+
  .players__list .player-phoenix {
     background-image: url(../img/player-phoenix.png);
     background-position: 0 0;
      background-repeat: no-repeat;
-     width: 985px;
-     height: 1478px;
+     width: 441px;
+     height: 988px;
      position: absolute;
      left: 540px;
      top: 232px;
+     border: 2px solid #F8F8F8;
+
 }
 .players__list .player-jett {
     background-image: url(../img/player-jett.png);
     background-position: 0 0;
      background-repeat: no-repeat;
-     width: 985px;
-     height: 1478px;
+     width: 441px;
+     height: 988px;
      position: absolute;
      left: 1112px;
      top: 232px;
+     border: 2px solid #F8F8F8;
 }
 .players__list .player-sova {
     background-image: url(../img/player-sova.png);
     background-position: 0 0;
      background-repeat: no-repeat;
-     width: 985px;
-     height: 1478px;
+     width: 441px;
+     height: 988px;
      position: absolute;
      left: 1684px;
      top: 232px;
+     border: 2px solid #F8F8F8;
 }
 .players__list .player-sage {
     background-image: url(../img/player-sage.png);
     background-position: 0 0;
      background-repeat: no-repeat;
-     width: 985px;
-     height: 1478px;
+     width: 441px;
+     height: 988px;
      position: absolute;
      left: 2290px;
      top: 232px;
+     border: 2px solid #1F2326;
+     box-sizing: border-box;
 }
+
+.abilities__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 971px;
+    left: 31px;
+    background-color: #1F2326;
+    border: 2px solid #F8F8F8;
+    box-sizing: border-box;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    width: 440px;
+    height: 110px;
+
+}
+.abilities__list_sage {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 971px;
+    background-color: #fff;
+    width: 440px;
+    height: 110px;
+    border: 2px solid #1F2326;
+    box-sizing: border-box;
+}
+.abilities__list .abilities__item {
+    align-self: center;
+}
+
+
+
+
+
+
+
+
 
  /* .main::after {
  
