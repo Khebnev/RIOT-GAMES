@@ -93,6 +93,20 @@ body {
     border-radius: 50%;
     background: #FF4656;
  }
+
+ .body__bg_ellipse44 {
+   /* Ellipse 44 */
+
+
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 2946px;
+    top: 475px;
+    border-radius: 50%;
+    background: #505155;
+  }
+ 
 .body__bg_rectangle {
  /* Rectangle */
 
@@ -275,10 +289,7 @@ body {
     transform: rotate(90deg);
 } */
 
- /* .main__agents {
-     position: relative;
- } */
- .main::after {
+ .main__agents {
     position: absolute;
     content: "";
     background-image: url(../img/AGENTS.png);
@@ -287,5 +298,17 @@ body {
     height: 1015px;
     left: 315px;
     top: 204px;
-
-}
+ }
+ /* .main::after {
+ 
+} */
+/* .main::after {
+    position: absolute;
+    content: "";
+    background-image: url(../img/AGENTS.png);
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 1015px;
+    left: 315px;
+    top: 204px;
+} */
