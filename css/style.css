@@ -265,7 +265,7 @@ body {
     width: 100%;
     height: 1499px;
     background-color: #FF4656;
-    border-radius: 32px;
+    /* border-radius: 32px; */
     position: relative;
 }
 /* .main__agents {
@@ -296,9 +296,67 @@ body {
     background-repeat: no-repeat;
     width: 210px;
     height: 1015px;
-    left: 315px;
+    left: 267px;
     top: 204px;
  }
+ .players__list {
+     position: absolute;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     display: flex;
+     /* justify-content: space-around; */
+ }
+ .player__item {
+     /* position: absolute;
+     width: 440px;
+     height: 990px;
+     left: 553px;
+     top: 238px; */
+   
+     
+ }
+ .players__list .player-phoenix {
+    background-image: url(../img/player-phoenix.png);
+    background-position: 0 0;
+     background-repeat: no-repeat;
+     width: 985px;
+     height: 1478px;
+     position: absolute;
+     left: 540px;
+     top: 232px;
+}
+.players__list .player-jett {
+    background-image: url(../img/player-jett.png);
+    background-position: 0 0;
+     background-repeat: no-repeat;
+     width: 985px;
+     height: 1478px;
+     position: absolute;
+     left: 1112px;
+     top: 232px;
+}
+.players__list .player-sova {
+    background-image: url(../img/player-sova.png);
+    background-position: 0 0;
+     background-repeat: no-repeat;
+     width: 985px;
+     height: 1478px;
+     position: absolute;
+     left: 1684px;
+     top: 232px;
+}
+.players__list .player-sage {
+    background-image: url(../img/player-sage.png);
+    background-position: 0 0;
+     background-repeat: no-repeat;
+     width: 985px;
+     height: 1478px;
+     position: absolute;
+     left: 2290px;
+     top: 232px;
+}
+
  /* .main::after {
  
 } */
