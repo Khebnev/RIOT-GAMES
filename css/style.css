@@ -138,10 +138,11 @@ body {
 .header .header__logo-name::after {
     position: absolute;
     content: "";
-    width: 3px;
-    height: 20px;
-    top: 10xp;
-    left: 10px;
+    width: 4px;
+    height: 60px;
+    top: -9px;
+    left: 107px;
+    background-color: #fff;
 }
 
 .header .header__logo-main {
@@ -164,6 +165,30 @@ body {
 .menu__item  a {
     width: 105px;
 }
+.header .menu__btn_news {
+    position: relative;
+}
+.header .menu__btn_news::after {
+    content: '';
+    position: absolute;
+    left: 80px;
+    bottom: 1px;
+    border: 4px solid transparent;
+    border-top: 6px solid #fff;
+}
+
+.header .menu__btn_discover {
+    position: relative;
+}
+.header .menu__btn_discover::after {
+    content: '';
+    position: absolute;
+    left: 95px;
+    bottom: 1px;
+    border: 4px solid transparent;
+    border-top: 6px solid #fff;
+}
+
 
 
 .header .menu__login {
@@ -178,6 +203,20 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.menu__login .login__avatar_img {
+    border-radius: 50%;
+}
+.menu__login .menu__btn_login {
+    position: relative;
+}
+.menu__login .menu__btn_login::after {
+    content: '';
+    position: absolute;
+    left: 95px;
+    bottom: 1px;
+    border: 4px solid transparent;
+    border-top: 6px solid #fff;
 }
 
 
