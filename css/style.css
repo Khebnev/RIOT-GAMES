@@ -2,12 +2,117 @@ html, body {
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #1F2326;
+    width: 3099px;
+    height: 2323px;
+    
+    position: relative;
+}
+.body__bg_ellipse40 {
+    /* Ellipse 40 */
+
+    position: absolute;
+    width: 2215px;
+    height: 2216px;
+    left: -385px;
+    top: -711px;
+
+    background: #FF4656;
+    border-radius: 50%;
+}
+.body__bg_ellipse46 {
+    /* Ellipse 46 */    
+
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 2836px;
+    top: 74px;
+    border-radius: 50%;
+
+    background: #FF4656;
+}
+.body__bg_ellipse42 {
+    /* Ellipse 42 */
+
+
+    position: absolute;
+    width: 268px;
+    height: 269px;
+    left: 2727px;
+    top: 182px;
+    border-radius: 50%;
+    background: #EFEFEF;
+}
+.body__bg_ellipse43 {
+   /* Ellipse 43 */
+
+
+    position: absolute;
+    width: 1443px;
+    height: 1443px;
+    left: 2018px;
+    top: 1392px;
+    border-radius: 50%;
+    background: #292C31;
+}
+.body__bg_ellipse45 {
+    /* Ellipse 45 */
+ 
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 112px;
+    top: 2082px;
+    border-radius: 50%;
+    background: #505155;
+ }
+ .body__bg_ellipse41 {
+  /* Ellipse 41 */
+
+
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    left: 177px;
+    top: 2114px;
+    border-radius: 50%;
+    background: #EFEFEF;
+ }
+ .body__bg_ellipse40 {
+   /* Ellipse 40 */
+
+
+    position: absolute;
+    width: 2215px;
+    height: 2216px;
+    left: -385px;
+    top: -711px;
+    border-radius: 50%;
+    background: #FF4656;
+ }
+.body__bg_rectangle {
+ /* Rectangle */
+
+
+    position: absolute;
+    width: 2660px;
+    height: 1716px;
+    left: 220px;
+    top: 303px;
+    
+    background: #F5F4EF;
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+}
+
 .header {
     background-color: #1F2326;
     width: 100%;
     height: 132px;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     color: #fff;
     font-family: Montserrat;
@@ -16,10 +121,11 @@ html, body {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    /* background-image: url(../img/header-rectangle.png);
-    background-repeat: no-repeat;
-    background-position: 148px 43px; */
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
+
+
 .header a {
     text-decoration: none;
     color: #fff;
@@ -27,7 +133,17 @@ html, body {
 }
 .header .header__logo-name {
     margin-left: 3%;
+    position: relative;
 }
+.header .header__logo-name::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 20px;
+    top: 10xp;
+    left: 10px;
+}
+
 .header .header__logo-main {
     margin-left: 3%;
 }
@@ -40,7 +156,7 @@ html, body {
     margin: 0;
     padding: 0;
     margin-left: 3%;
-    /* padding-right: 10%; */
+
 }
 .header  .menu__item {
     width: 105px;
@@ -49,21 +165,7 @@ html, body {
     width: 105px;
 }
 
-/* .header .menu__btn_news {
-    background-image: url(../img/arrow-down.png);
-    background-repeat: no-repeat;
-    background-position: 80px 6px;
-}
-.header .menu__btn_discover {
-    background-image: url(../img/arrow-down.png);
-    background-repeat: no-repeat;
-    background-position: 96px 6px;
-}
-.header .menu__btn_login {
-    background-image: url(../img/arrow-down.png);
-    background-repeat: no-repeat;
-    background-position: 152px 20px;
-} */
+
 .header .menu__login {
     display: flex;
     align-items: center;
@@ -77,3 +179,38 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.header {
+    background-color: #1F2326;
+    width: 100%;
+    height: 132px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+}
+
+.main {
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: 1499px;
+    background-color: #FF4656;
+    border-radius: 32px;
+} */
