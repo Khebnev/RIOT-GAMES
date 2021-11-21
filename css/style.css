@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #1F2326;
+    width: 100%;
+    height: 132px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    /* background-image: url(../img/header-rectangle.png);
+    background-repeat: no-repeat;
+    background-position: 148px 43px; */
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.header .header__logo-name {
+    margin-left: 3%;
+}
+.header .header__logo-main {
+    margin-left: 3%;
+}
+
+.header .menu__list {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 3%;
+    /* padding-right: 10%; */
+}
+.header  .menu__item {
+    width: 105px;
+}
+.menu__item  a {
+    width: 105px;
+}
+
+/* .header .menu__btn_news {
+    background-image: url(../img/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: 80px 6px;
+}
+.header .menu__btn_discover {
+    background-image: url(../img/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: 96px 6px;
+}
+.header .menu__btn_login {
+    background-image: url(../img/arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: 152px 20px;
+} */
+.header .menu__login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+    margin-left: auto;
+    margin-right: 3%;
+}
+.header .login__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
